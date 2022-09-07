@@ -4,15 +4,24 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 
 body{
-
-
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
   width: 100%;
+  
+}
 
-
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
 
 }
+
 
 
 
@@ -41,7 +50,6 @@ body{
 width: 100%;
 height: 1100px;
 
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./960x0.jpg);
 
 
 
@@ -60,12 +68,12 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(.
 
 
 .hero-text {
- 
-  text-align: left;
+  width: 89%;
+  
   position: absolute;
-  top: 50%;
-  left: 25%;
-  transform: translate(-50%, -50%);
+  top: 43%;
+  left: 5%;
+
   color: white;
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 4px;
@@ -115,11 +123,22 @@ color: var(--red);
   .column {
     float: left;
     width: 25%;
-    
+    margin-bottom: 40px;
+   
     
   }
-  
+  .column h1 {
 
+margin-bottom: 0;
+
+
+  }
+  .column img {
+
+    margin-bottom: 18px;
+    
+    
+      }
  
   
   img.hover-shadow {
@@ -180,53 +199,10 @@ color: var(--red);
 }
 
 
-.cal-bmi {
-  margin-top: 3%;
-background-color: var(--dark);
-height: 300px;
 
 
 
 
-}
-
-
-
-
-.h1-bmi {
- 
-  color: var(--light);
-  
-  letter-spacing: 4px;
-  
-  margin: auto;
-  position: relative;
-  padding: 85px ;
-  font-family: 'Kanit', sans-serif;
-
-
-}
-
-
-
-
-
-.her-button1{
-  text-align: left;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, 100%);
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 4px;
-    font-weight: 200;
-    max-width: 1170px;
-    margin: auto;
-    padding: 18px ;
-}  
-
-/* CSS */
 .button-43 {
   background-image: linear-gradient(-180deg, var(--red) 0%, var(--primary) 100%);
   border-radius: .5rem;
@@ -237,7 +213,7 @@ height: 300px;
   justify-content: center;
   padding: 1rem 1.75rem;
   text-decoration: none;
-  width: 100%;
+margin-left: 47%;
   border: 0;
   cursor: pointer;
   user-select: none;
@@ -256,14 +232,13 @@ height: 300px;
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 
 .three-sec1 {
   
-margin-top: 1%;
-width: 100%;
-height: 1400px;
+margin-top: 2%;
+
 
 
 }
@@ -296,14 +271,23 @@ height: 1400px;
   display: flex;
   flex-direction: row;
  
-  width: 900px;
+  width: 100%;
+  justify-content: center;
+
+
+  margin: auto;
+  
+  margin-top: -6%;
+
+  position: relative;
+  
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 750px;
-  margin: auto;
-  margin-top: 10px;
-
-
+  gap: 59px;
+  
+  flex-wrap: wrap;
  
 }
 
@@ -317,6 +301,7 @@ height: 1400px;
   
   transition: all 0.4s;
 width:340px ;
+height: 580px;
 background-color: var(--light);
 text-align: center;
 font-size: 17px;
@@ -326,8 +311,7 @@ font-family: sans-serif;
 backface-visibility: hidden;
 
 margin:18px ;
-margin-top: 1%;
-justify-content: center;
+
 
 
 
@@ -347,9 +331,19 @@ color: #000000;
 }
 
 
+
+.card-comtent h1 {
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 2px;
+font-size: 30px;
+}
+
+
+
+
 .p-grid {
 
-margin-top: 78px;
+margin-top: 38px;
 
 
 }
@@ -381,7 +375,8 @@ margin-top: 78px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-top: 150px;
+  margin-top: 40px;
+  
 }
 
 .button-35:hover {
@@ -390,56 +385,10 @@ margin-top: 78px;
   background-color: var(--light);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-
-.map {
-  background-image: url(./960x2.jpg);
-  background-size:cover ;
-
- 
-  width: 100%;
- 
-  float: right;
-  
-  
-  }
-
-
-.Map-sec {
-  padding: 100px ;
-  text-align: center;
-  background: #ffffff;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-  text-align: start;
-  height: 299px;
-  
-  background-color: var(--dark);
-  content: "";
-  display: table;
-  clear: both;
- 
-  float: left;
-  width: 60%;
-  
-}
-
-
-.Map-text{
- 
-  margin-top: 60px;
-  font-family: 'Kanit', sans-serif;
-  padding:20px;
-  color: #FFFFFF;
-letter-spacing: 2px;  
- 
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .button-11 {
   align-items: center;
-  background-color: var(--light);
+  background-color: #dedede;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
@@ -497,32 +446,120 @@ color: var(--light);
 }
 
 
-.quick {
-  border-top: 1px solid var(--red);
-  border-bottom: 1px solid var(--red);
-  padding: 29px;
+
+
+.SM {
+
 width: 100%;
-  margin-bottom: 10%;
+height: 100%;
+
+margin-top: 220px;
+background-image: url(./img/960x7.jpg);
+
+background-position: 90px ;
+background-size: cover;
+
 }
 
-.quickh1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--red);
-  font-family: 'Bebas Neue', cursive; 
-  letter-spacing: 3px;
-}
-
-.quickp {
-  margin-top: 30px;
-  text-align: center;
-  letter-spacing: 3px;
-  font-size: 20px;
-  font-weight: 600;
+.container-Map {
   
+background-color: #161616;
+width: 70%;
+padding: 5%;
+
+
+
 }
 
-.quicka {
-  text-decoration: none;
-  color: var(--red);
+
+.container-Map h1 {
+font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px;
+font-size: 30px;
+margin-bottom: 5px;
 }
+
+.container-Map p {
+
+font-size: 20px;
+
+
+
+
+}
+
+
+
+.content-Map {
+
+
+
+background-color: #FFFFFF;
+padding: 5%;
+
+}
+
+
+  .back-vid {
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  }
+
+
+  
+
+.BMI {
+
+  width: 100%;
+  height: 100%;
+  
+  margin-top: 220px;
+  
+ 
+  color: #FFFFFF;
+  background-position: 90px ;
+  background-size: cover;
+  font-family: 'Francois One', sans-serif;
+letter-spacing: 3px;
+
+  }
+  
+  .container-BMI {
+  
+  background-color: var(--dark);
+  width: 100%;
+  padding: 5%;
+  
+  
+  
+  }
+
+
+
+  .ml6 {
+    position: relative;
+    font-weight: 900;
+    font-size: 35px;
+  }
+  
+  .ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+   
+
+    overflow: hidden;
+  }
+  
+  .ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  
